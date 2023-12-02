@@ -22,7 +22,6 @@ class Dog{
       this.serviceDog = serviceDog;
    }
    
-   
 // Getters    
    public String get_dog(){
       String info = (name + breed + age + furColor + serviceDog);
@@ -50,7 +49,6 @@ class Dog{
    public void set_furColor(String furColor){this.furColor = furColor;}
    public void set_serviceDog(boolean serviceDog){this.serviceDog = serviceDog;}
 
-
 // toString
    public String toString(){
       return String.format("\nMy name is: %s \nI am a: %s" +
@@ -65,7 +63,6 @@ class Dog{
       System.out.println("bark! bark! bark!");
    }
 }
-
 
 class DogCreator{                                       // DogCreator class
    public static void main(String[] args){              // main class
